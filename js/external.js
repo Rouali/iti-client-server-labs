@@ -88,5 +88,3 @@ if (day == 6) {
 /** ToString : 16 hexa 2 binary 8 oct*/
 let Number = 30;
 console.log(Number.toString(16));
-
-
