@@ -1,0 +1,433 @@
+*{
+ padding:0;
+ margin:0;
+ font-family: Arial, sans-serif;
+}
+#div1 {
+ width: 100%;
+ height:900px;
+ background-color:whitesmoke;
+ margin-bottom:100px;
+}
+#logo{
+ vertical-align: middle;
+ width:50px;
+}
+#search{
+ width:30px;
+ vertical-align: middle;
+}
+#nav ul{
+  list-style: none;
+  position:fixed;
+  background-color:whitesmoke; 
+  width:100%;
+  height:90px;
+}
+#nav ul li{
+ display: inline-block;
+ margin: 20px;
+ padding: 10px;
+ font-size: 17;
+ margin-bottom: 80px;
+}
+#nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+#nav ul li:first-child{
+  padding-right: 500px;
+  padding-left: 180px;
+  font-weight: bold;
+  font-size:22px;
+ }
+#dish{
+ width:500px;
+}
+.header{
+ display:inline-block;
+ margin-top:100px;
+}
+.text{
+ margin-left:250px;
+ display:inline-block;
+ margin-top:150px;
+ margin-right:100px;
+}
+.text h1{
+ font-size:70px;
+}
+.text p{
+ width:630px;
+ margin-top:40px;
+ font-size:20px;
+ line-height: 1.4;
+
+}
+.buttons {
+    margin-top: 50px;
+}
+
+.buttons .btn-orange,
+.buttons .btn-black {
+    text-decoration: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+.buttons .btn-orange {
+    background-color: #ff5722;
+}
+
+.buttons .btn-black {
+    background-color: #000;
+}
+.buttons .btn-orange:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.buttons .btn-black:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+/* services*/
+.service {
+    width: 100%;
+    height:800px;
+    padding: 30px 0;
+    text-align: center;
+    margin-top:500px;
+}
+
+.text-service h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services-fruits {
+    width: 90%; 
+    margin: 100px auto;
+    text-align: center;
+}
+
+.services-fruits .orange,
+.services-fruits .grapes,
+.services-fruits .guava {
+    display: inline-block; 
+    border: 1px solid #ddd;
+    width: 300px;
+    margin: 0 10px; 
+    vertical-align: top; 
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.services-fruits .orange:hover{
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border-top:6px solid #ff5722; 
+}
+.services-fruits .grapes:hover{
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+border-top:6px solid #ff5722; 
+}
+.services-fruits .guava:hover{
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+border-top:6px solid #ff5722; 
+}
+
+.services-fruits img {
+    width: 50px; 
+    height: auto;
+    margin-bottom: 15px;
+    margin-top:50px;
+}
+
+.services-fruits h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:orange;
+}
+
+.services-fruits p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom:30px;
+}
+.btn-service .btn-serv{
+    text-decoration: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: black;
+    color:white;
+}
+.btn-service .btn-serv:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/* fresh fruit*/
+.fresh-fruit{
+    width: 100%;
+    height:800px;
+    text-align: center;
+
+}
+.text-fresh{
+  margin:0 0 50px 0;
+}
+.text-fresh h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.best-orange{
+ display:inline-block;
+}
+.text-best-orange{
+ display:inline-block;
+ text-align:left;
+ width:640px;
+ margin-top:50px;
+ margin-right:70px;
+}
+.text-best-orange h6{
+ font-size:25px;
+ margin-bottom:20px;
+}
+.text-best-orange p{
+ line-height: 1.6;
+}
+.btn-orange{
+ margin-top:50px;
+}
+#orange{
+ width:250px;
+}
+.btn-orange .btn-orange-buy,
+.btn-grapes .btn-grapes-buy,
+.btn-guava .btn-guava-buy{
+    text-decoration: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: black;
+    color:white;
+}
+.btn-orange .btn-orange-buy:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.text-best-grapes{
+ display:inline-block;
+ text-align:left;
+ width:640px;
+ margin-top:100px;
+ margin-right:220px;
+}
+.text-best-grapes h6{
+ font-size:25px;
+ margin-bottom:20px;
+}
+.text-best-grapes p{
+ line-height: 1.6;
+}
+.btn-grapes{
+ margin-top:50px;
+}
+#grapes{
+ width:110px;
+}
+.btn-grapes .btn-grapes-buy:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.text-best-guava{
+ display:inline-block;
+ text-align:left;
+ width:640px;
+ margin-top:100px;
+ margin-right:150px;
+}
+.text-best-guava h6{
+ font-size:25px;
+ margin-bottom:20px;
+}
+.text-best-guava p{
+ line-height: 1.6;
+}
+.btn-guava{
+ margin-top:50px;
+}
+#guava{
+ width:200px;
+}
+.btn-guava .btn-guava-buy:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/*background image*/
+.image-bg{
+ margin-top:400px;
+ background-image:url(images/tasty.png);
+ height:500px;
+ background-repeat:no-repeat;
+ background-position:center;
+ color:white;
+ text-align:center;
+ font-size:100px;
+ font-weight:bold;
+ line-height: 500px;
+}
+
+ /*testimonial*/
+.testi{
+ margin-top:100px;
+ text-align:center;
+ height:700px;
+}
+.text-testi h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.text-testi{
+ margin-bottom:50px;
+}
+.client p{
+ font-size:30px;
+ margin-bottom: 20px;
+}
+.client-p{
+ margin:auto;
+ width:900px;
+}
+
+/*contact us*/
+
+.img-org {
+    display: inline-block;
+    margin-left: 100px; 
+    vertical-align: middle;
+    margin-left:500px;
+}
+
+.contact-form {
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top; 
+    text-align: left;
+    margin-left:425px;
+}
+
+.contact-form h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    display: block; 
+    width: 500px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+}
+
+.btn-form .btn-snd {
+    text-decoration: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #fff;
+    display: block;
+    background-color: #ff5722;
+    width: 150px;
+    text-align: center;
+}
+
+.btn-form .btn-snd:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+/* footer*/
+
+.footer{ 
+     margin-top:100px;
+     margin-bottom: 70px;
+     padding-left: 100px;
+     display: flex;
+     height:300px;
+}
+
+.footeritems h5{
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom:10px;
+        }
+
+.footeritems{
+            width: 25%;
+            flex-wrap: wrap;
+            font-size: 15px;
+        }
+.footeritems p{
+            width: 100px;
+            font-size: 15px;
+        }
+
+.subscribeNow {
+    text-decoration: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #fff;
+    display: block;
+    background-color: #ff5722;
+    width: 150px;
+    text-align: center;
+    border:0;
+}
+.subscribeNow:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.footeritems input{
+            width: 200px;
+            height: 25px;
+            margin-bottom: 15px;
+}
+.copy{
+ background-color:whitesmoke;
+ height:80px;
+ text-align:center;
+ margin:auto;
+ line-height: 80px;
+}
+
+   
+
+      
+

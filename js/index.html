@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*console.log("number1 from another script before external script",number1);
+        console.log("number2 from another script before external script",number2);
+        console.log("number3 from another script before external script",number3);*/   
+    </script>
+</head>
+<body>
+    <h1 style="text-align:center;">Hello world!</h1>
+    <p style="text-align:center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus doloremque, illum deserunt hic labore nesciunt nostrum maiores provident saepe facere dignissimos. Nostrum minima iusto maiores iure delectus sed atque.</p>
+    <script src="external.js"></script>
+    <script>
+        /*console.log("number1 from another script after external script",number1);
+        console.log("number2 from another script after external script",number2);
+        console.log("number3 from another script after external script",number3);*/
+        console.log("sum of number1 + number2 =",number1+number2);   
+        console.log("sum of flag + number2 =",flag+number1);   
+        console.log("sum of firstName + flag =",firstName+flag); 
+        console.log("sum of number1 + number2 + firstName =",number1+number2+firstName); 
+        console.log("sum of number1 + firstName + number2  =",number1+firstName+number2); 
+        console.log("result of number2*flag  =",number1*flag); 
+        console.log("result of number1/lastName =",number1/lastName);
+        console.log(`full name : ${firstName} ${middleName}`); 
+
+
+    </script>
+</body>
+</html>
